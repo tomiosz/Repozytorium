@@ -24,6 +24,7 @@ namespace LoginApplication
         
                 Register.Savedata(this.NameBox.Text, this.SurmaneBox.Text, this.LoginBox.Text, this.PassBox.Text, this.EmBox.Text);
          }
+// Inicjacja metody savedata do zapisu do pliku podanych danych.
 
         private void button3_Click(object sender, EventArgs e)
         {

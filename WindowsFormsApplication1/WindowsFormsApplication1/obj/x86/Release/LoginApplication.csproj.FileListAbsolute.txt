@@ -1,0 +1,10 @@
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\LoginApplication.csprojResolveAssemblyReference.cache
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\LoginApplication.Form1.resources
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\LoginApplication.Form2.resources
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\LoginApplication.Form3.resources
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\LoginApplication.csproj.GenerateResource.Cache
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.exe
+C:\Repos\Repozytorium\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.pdb

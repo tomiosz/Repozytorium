@@ -30,10 +30,12 @@ namespace LoginApplication
                 loginForm = new Form1();
                 loginForm.Visible = false;
             }
+// Jezeli dane wpisane do pol textbox sa poprawne to otworzy sie form 2.
             else
             {
                 MessageBox.Show("Wrong Login or Password please try again with correct data.", "Wrong Login or Password");
             }
+// Jezeli dane sa niepoprawne to zostanie wyswietlona informacja o wpisanie poprawnych danych.
         }
 
 
@@ -47,6 +49,7 @@ namespace LoginApplication
             loginForm = new Form1();
             loginForm.Visible = false;
     }
+// Po nacisnieciu przycisku addButton, przejdziemy do formatki z rejestracja (Form3).
         }
     }
 
