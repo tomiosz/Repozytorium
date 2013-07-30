@@ -21,16 +21,45 @@ namespace LoginApplication
 
         private void registerButton_Click(object sender, EventArgs e)
         {
-        
-                Register.Savedata(this.NameBox.Text, this.SurmaneBox.Text, this.LoginBox.Text, this.PassBox.Text, this.EmBox.Text);
+            if (PassBox.Text == PassBox2.Text)
+            {
+                Register.Savedata(this.NameBox.Text, this.SurmaneBox.Text, this.LoginBox.Text, this.PassBox.Text, this.PassBox2.Text, this.EmBox.Text);
+            }
+            else
+            {
+                MessageBox.Show("Password is not the same!");
+               
+            }
+// Sprawdzanie poprawnoci 2 podanych ciagow znakow (hasel).
          }
+
 // Inicjacja metody savedata do zapisu do pliku podanych danych.
 
         private void button3_Click(object sender, EventArgs e)
         {
-             registerForm = new Form3();
-             registerForm.Close();
-                   
+           registerForm = new Form3();
+           registerForm.Close();
+           
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EmBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PassBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PassBox2_TextChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

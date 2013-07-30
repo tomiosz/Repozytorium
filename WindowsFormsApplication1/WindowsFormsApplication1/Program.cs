@@ -30,14 +30,15 @@ namespace LoginApplication
     public string Surname;
     public string Login;
     public string Password;
+    public string Password2;
     public string email;
 // Dodanie zmiennych w klasie Register sluzacych do zapisu danych do pliku.
    
-        public static void Savedata(string name, string surname, string Login, string Password, string email)
+        public static void Savedata(string name, string surname, string Login, string Password, string Password2, string email)
     {
 // Dodanie metody Savedata ze zmiennymi z klasy Register.
 
-        FileStream fs = new FileStream("D:\\dane.txt",FileMode.Append, FileAccess.Write);
+        FileStream fs = new FileStream("C:\\dane.txt",FileMode.Append, FileAccess.Write);
 // Utworzenie zmiennej typu filestream do obslugi podanego pliku, oraz przejscie metoda Append na koniec pliku.
         try
         {
@@ -46,7 +47,7 @@ namespace LoginApplication
             {
 // Uzycie metody StreamWriter do zapisu do pliku ze zmienej (fs).
 
-                outfile.Write(name + " " + surname + " " + Login + " " + Password + " " + email + "\r\n");
+                outfile.Write(name + " " + surname + " " + Login + " " + Password + " " + Password2 + " " + email + "\r\n");
                
         
             }
